@@ -1,0 +1,33 @@
+{
+  "name": "gulp-minimize",
+  "version": "0.0.1",
+  "description": "Gulp plugin for HTML minifiy.Based on minimize.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/foru17/gulp-minimize.git"
+  },
+  "keywords": [
+    "minimize",
+    "gulp"
+  ],
+  "author": "foru17",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/foru17/gulp-minimize/issues",
+    "email":"i@luolei.org"
+  },
+  "_npmUser": {
+    "name": "foru17",
+    "email": "meleilei@gmail.com"
+  },
+  "homepage": "https://github.com/foru17/gulp-minimize#readme",
+  "dependencies": {
+    "gulp-util": "^3.0.8",
+    "minimize": "^2.1.0",
+    "through2": "^2.0.3"
+  }
+}

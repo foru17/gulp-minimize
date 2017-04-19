@@ -5,8 +5,6 @@ Thin wrapper over[minimize](https://github.com/Swaagie/minimize), which does all
 
 ## Usage
 
-This plugin is authored in ES6, so until Node picks up ES6 module support you'll need to pluck the default property from the require'd import.
-
 ```javascript
 var gulp = require('gulp');
 var Minimize = require('gulp-minimize');
