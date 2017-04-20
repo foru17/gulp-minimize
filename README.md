@@ -37,7 +37,7 @@ Minimize({
 	quotes: true,
 	loose: true,
 	lowerCaseAttributeNames: false
-}))
+})
 ```
 
 See [minimize](https://github.com/Swaagie/minimize#options-1) for details and behavior for each option; the params are passed straight through.
