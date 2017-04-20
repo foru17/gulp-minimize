@@ -30,7 +30,7 @@ module.exports = function (options) {
 
         try {
             var minifyHtmlString = minimize.parse(contents);
-            file.contents = new Buffer(minifyHtmlString)
+            file.contents = new Buffer(minifyHtmlString);
         }catch(e){
             this.emit('error', new gutil.PluginError('gulp-minimize', e +  'minify html "' + gutil.colors.red(file.path) + '" failed'));
             return callback();
