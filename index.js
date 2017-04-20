@@ -8,8 +8,6 @@ var gutil = require('gulp-util');
 module.exports = function (options) {
 
     options = options || {};
-    options.cwd = options.cwd;
-    console.log(options)
 	var minimize = new Minimize(options);
 
     return through2.obj(function(file,encoding,callback){

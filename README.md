@@ -1,7 +1,7 @@
 # gulp-minimize [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url]
-[Gulp](http://gulpjs.com/) Gulp plugin for HTML minifiy.Based on minimize.
+[Gulp](http://gulpjs.com/) plugin for HTML minifiy.Based on minimize.
 
-Thin wrapper over[minimize](https://github.com/Swaagie/minimize), which does all the hard work.
+Thin wrapper over [Swaagie's](https://github.com/Swaagie) [minimize](https://github.com/Swaagie/minimize).
 
 ## Usage
 
@@ -17,10 +17,9 @@ gulp.task('html', function() {
 });
 ```
 
-
 ## API
 
-```typescript
+```javascript
 Minimize({
 	empty:true,
 	comments: false,
