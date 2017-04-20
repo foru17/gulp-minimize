@@ -1,6 +1,6 @@
 {
   "name": "gulp-minimize",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "description": "Gulp plugin for HTML minifiy.Based on minimize.",
   "main": "index.js",
   "homepage": "https://github.com/foru17/gulp-minimize#readme",
