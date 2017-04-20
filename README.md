@@ -3,6 +3,12 @@
 
 Thin wrapper over [Swaagie's](https://github.com/Swaagie) [minimize](https://github.com/Swaagie/minimize).
 
+## Installation
+
+Install package with NPM and add it to your development dependencies:
+
+`npm install gulp-minimize`
+
 ## Usage
 
 ```javascript
