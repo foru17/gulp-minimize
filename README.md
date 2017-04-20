@@ -1,4 +1,7 @@
 # gulp-minimize [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![dependencies Status](https://david-dm.org/foru17/gulp-minimize/status.svg)](https://david-dm.org/foru17/gulp-minimize) [![devDependencies Status](https://david-dm.org/scniro/gulp-clean-css/dev-status.svg)](https://david-dm.org/scniro/gulp-clean-css?type=dev)
+
+[![NPM](https://nodei.co/npm/gulp-minimize.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/gulp-minimize/)
+
 [Gulp](http://gulpjs.com/) plugin for HTML minifiy.Based on minimize.
 
 Thin wrapper over [Swaagie's](https://github.com/Swaagie) [minimize](https://github.com/Swaagie/minimize).
