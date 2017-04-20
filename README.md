@@ -13,13 +13,14 @@ Install package with NPM and add it to your development dependencies:
 
 ```javascript
 var gulp = require('gulp');
+var rename = require('gulp-rename');
 var Minimize = require('gulp-minimize');
 
 gulp.task('html', function() {
-        gulp.src('./index.html')
-        .pipe(Minimize())
-        .pipe(rename('min.html'))
-        .pipe(gulp.dest('.'));
+	gulp.src('./index.html')
+	.pipe(Minimize())
+	.pipe(rename('min.html'))
+	.pipe(gulp.dest('.'));
 });
 ```
 
@@ -28,10 +29,14 @@ gulp.task('html', function() {
 ```javascript
 Minimize({
 	empty:true,
+	cdata: true,
 	comments: false,
 	ssi: false,
 	conditionals: true,
-	spare: true 
+	spare: true,
+	quotes: true,
+	loose: true,
+	lowerCaseAttributeNames: false
 }))
 ```
 
